@@ -1,0 +1,98 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color:#EEE;
+  background-image: url(img/ic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  list-style-type: none;
+  font-style: center;justify-content;
+}
+
+ #Main-container{
+  background-color:white;
+  Margin-left:auto;
+  margin-right:auto;
+}
+#container{
+background-color: white;
+width:1000px;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
+
+}
+
+#header{
+  background-color: #66ccFF;
+  color:white;
+  text-align:center;
+  padding:10px;
+  font-weight:bold;
+  font-style: center;
+}
+  }
+
+#content{
+  padding:10px;
+}
+
+.wrapper{
+  background-blend-mode: luminosity;
+  width: 800px;
+  padding:0px;
+}
+.image-me{
+  width:200px;
+  height:100px;
+  background-image: url(../img/me.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin:0%;
+}
+#container{
+  align-content: space-around;
+}
+#navbar{
+  width:200px;
+  float:left;
+  padding:10px;
+  text-align:center;
+  background-color: white;
+
+  }
+
+.ul{
+    list-style-type: none;
+    background-color:white;
+    color:white;
+    float:left;
+    text-align: left;
+}
+.button,li{
+  padding:10px;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  list-style-type: none;
+  text-align: left;
+
+}
+#navbar.selected{
+  font-weight:bold;
+}
+#Main{
+  width:740px;
+  float:right;
+padding:20px;
+background-color:white;
+}
+#footer{
+  clear:both;
+  padding:10px;
+  background-color: #999999;
+  color: white;
+  text-align:left;
+}
