@@ -1,26 +1,19 @@
 body{
   font-family: 'Dancing Script', cursive;
   background-color:#EEE;
-  background-image: url(img/ic.jpg);
+  background-image: url(../img/download.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   list-style-type: none;
   font-style: center;justify-content;
 }
-
- #Main-container{
-  background-color:white;
-  Margin-left:auto;
-  margin-right:auto;
-}
-#container{
+#Main-container{
 background-color: white;
 width:1000px;
 margin-left: auto;
 margin-right: auto;
 padding:10px;
-
 }
 
 #header{
@@ -31,10 +24,12 @@ padding:10px;
   font-weight:bold;
   font-style: center;
 }
-  }
 
-#content{
-  padding:10px;
+ #container{
+  background-color:white;
+  Margin-left:auto;
+  margin-right:auto;
+  align-content: space-around;
 }
 
 .wrapper{
@@ -42,6 +37,7 @@ padding:10px;
   width: 800px;
   padding:0px;
 }
+
 .image-me{
   width:100px;
   height:100px;
@@ -52,25 +48,7 @@ padding:10px;
   position: absolute;
   margin:0%;
 }
-#container{
-  align-content: space-around;
-}
-#navbar{
-  width:200px;
-  float:left;
-  padding:10px;
-  text-align:center;
-  background-color: white;
 
-  }
-
-.ul{
-    list-style-type: none;
-    background-color:white;
-    color:white;
-    float:left;
-    text-align: left;
-}
 .button,li{
   padding:10px;
   font-weight:bold;
@@ -78,17 +56,15 @@ padding:10px;
   font-family: 'Shadows Into Light', cursive;
   list-style-type: none;
   text-align: left;
+}
 
-}
-#navbar.selected{
-  font-weight:bold;
-}
 #Main{
   width:800px;
   float:right;
 padding:10px;
 background-color:white;
 }
+
 #footer{
   clear:both;
   padding:10px;

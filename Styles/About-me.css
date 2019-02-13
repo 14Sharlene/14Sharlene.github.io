@@ -1,0 +1,74 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color:#EEE;
+  background-image: url(../img/download.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  list-style-type: none;
+  font-style: center;justify-content;
+}
+
+#Main-container{
+background-color: white;
+width:1000px;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
+}
+
+#header{
+  background-color: #66ccFF;
+  color:white;
+  text-align:center;
+  padding:10px;
+  font-weight:bold;
+  font-style: center;
+}
+
+ #container{
+  background-color:white;
+  Margin-left:auto;
+  margin-right:auto;
+}
+
+.wrapper{
+  background-blend-mode: luminosity;
+  width: 800px;
+  padding:0px;
+  }
+
+.image-me{
+  width:100px;
+  height:100px;
+  background-image: url(../img/me.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin:0%;
+}
+
+.button,li{
+  padding:10px;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  list-style-type: none;
+  text-align: left;
+}
+
+#Main{
+  width:800px;
+  float:right;
+padding:10px;
+background-color:white;
+}
+
+#footer{
+  clear:both;
+  padding:10px;
+  background-color: #999999;
+  color: white;
+  text-align:left;
+}

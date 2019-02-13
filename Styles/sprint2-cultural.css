@@ -1,0 +1,10 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color:#EEE;
+  background-image: url(../img/white.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  list-style-type: none;
+  font-style: center;justify-content;
+}

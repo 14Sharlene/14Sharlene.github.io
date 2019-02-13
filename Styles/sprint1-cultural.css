@@ -1,14 +1,13 @@
 body{
   font-family: 'Dancing Script', cursive;
   background-color:#EEE;
-  background-image: url(img/ic.jpg);
+  background-image: url(../img/white.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   list-style-type: none;
   font-style: center;justify-content;
 }
-
 #Main-container{
 background-color: white;
 width:1000px;
@@ -28,32 +27,17 @@ padding:10px;
   padding:10px;
   font-weight:bold;
   font-style: center;
+  width:80vw;
 }
-
-
+.p{
+  width:75vmin;
+}
 #content{
   padding:10px;
-}
-
-.wrapper{
-  background-blend-mode: luminosity;
-  width: 800px;
-  padding:0px;
-}
-.image-me{
-  width:200px;
-  height:100px;
-  background-image: url(../img/me.jpg);
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  margin:0%;
 }
 #container{
   align-content: space-around;
 }
-
 #Main{
   width:800px;
   float:right;
