@@ -9,7 +9,6 @@ body{
   font-style: center;
   
 }
-background-image: url(../img/ic.jpg);
 #Main-container{
 background-color: white;
 width:1000px;
@@ -17,6 +16,7 @@ margin-left: auto;
 margin-right: auto;
 padding:10px;
 }
+
 #container{
   background-color: white;
   Margin-left:auto;
@@ -36,9 +36,22 @@ padding:10px;
 padding:10px;
 background-color:white;
 }
+.wrapper{
+    display:gird;
+    grid-template-columns:repeat(3 1fr);
+    grid-gap:1em;
+    grid-auto-rows: minmax(100px,auto)
+}
 
+.wrapper > div{
+    background-color:white;
+    padding: 1em;
+}
 
+.wrapper > div:noth-child (odd){
+    background-color:white;
 
+}
 
 
  
