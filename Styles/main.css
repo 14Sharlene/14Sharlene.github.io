@@ -9,6 +9,54 @@ body{
   font-style: center;
   color: white;
 }
+}
+@media screen and (Max-width:999px) {
+      #container{
+        width: 100%;
+      }
+      #header{
+        width:100%;
+      }
+      #navbar{
+        width:30%;
+      }
+      #main{
+        width:70%;
+      }
+      #footer{
+        width:100%;
+      }
+      img{
+        width: 100%;
+      }
+}
+
+@media screen and (Max-width:640px) {
+  #container{
+    width: 100%;
+  }
+  #header{
+    width:100%;
+  }
+  #navbar{
+    width: 100%;
+  }
+  #main{
+    width:100%;
+  }
+  #footer{
+    width:100%;
+  }
+  img{
+    width: 100%;
+  }
+}
+@media screen and (Max-width:320px) {
+  #container{
+    width: 100%;
+  }
+
+  }
 .menu-container{
   width: 100%;
   background-position: center;
@@ -25,7 +73,7 @@ border-top: 50px;
 border-color: black;
 }
   
-#header{
+.header{
   background-color:transparent;
   color:white;
   text-align:center;
@@ -33,6 +81,7 @@ border-color: black;
   font-weight:bold;
   font-style: center;
   height: 120px;
+  float: left;
   }
 #content{
   padding:10px;
