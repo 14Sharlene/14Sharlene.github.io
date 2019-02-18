@@ -1,0 +1,15 @@
+.wrapper{
+    display:gird;
+    grid-template-columns: 40%, 30%, 30%;
+    grid-gap:1em;
+}
+
+.wrapper > div{
+    background-color: aqua;
+    padding: 1em;
+}
+
+.wrapper >div:noth-child (odd){
+    background-color:#ddd;
+
+}

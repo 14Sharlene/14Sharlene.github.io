@@ -1,15 +1,14 @@
 body{
   font-family: 'Dancing Script', cursive;
   background-color:#EEE;
-  background-image: url(../img/ic.jpg) ;
+  background-image: url(../img/ic.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   list-style-type: none;
   font-style: center;
-  color: white;
-}
-}
+  }
+
 @media screen and (Max-width:999px) {
       #container{
         width: 100%;
@@ -73,7 +72,7 @@ border-top: 50px;
 border-color: black;
 }
   
-.header{
+#header{
   background-color:transparent;
   color:white;
   text-align:center;
@@ -100,8 +99,6 @@ border-color: black;
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-
-  
 }
 .pull-right{
   float: right;
@@ -182,13 +179,6 @@ border-color: black;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.ul{
-    list-style-type: none;
-    background-color:white;
-    color:white;
-    float:left;
-    text-align: left;
-}
 
 #navbar.selected{
   font-weight:bold;
@@ -202,17 +192,11 @@ background-color:transparent;
 color: white
 
 }
-.footer{
-padding:50px
-}
+
 #footer{
-  width: 1024px;;
-  clear:both;
-  padding:40px;
-  background-color:transparent;
-  color: white;
-  text-align:left;
- }
+  bottom:0;
+}
+
 
 #title{
 color: white
