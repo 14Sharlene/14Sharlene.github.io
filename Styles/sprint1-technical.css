@@ -1,12 +1,11 @@
 body{
-  font-family: 'Slabo 27px', serif;
-  background-color:#EEE;
-  background-image: url(../img/white.jpg);
+  background: url(../img/white.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   list-style-type: none;
   font-style: center;
+  font-family: 'Slabo 27px', serif;
 }
 
 .Main-content{
@@ -30,7 +29,7 @@ padding:20px;
   font-style: center;
 }
 
- .container{
+ #container{
   background-color:white;
   Margin-left:auto;
   margin-right:auto;
@@ -53,16 +52,16 @@ padding:10px;
 background-color:white;
 }
 
-#footer{
+.footer{
   clear:both;
   padding:10px;
   background-color: #999999;
   color: white;
   text-align:left;
+  bottom:0;
+
 }
-@media screen and (max-width: 999px)
-#footer {
-    width: 100%
+
 
 
 

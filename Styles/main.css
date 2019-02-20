@@ -87,23 +87,9 @@ border-color: black;
 
 }
 
-.wrapper{
-  background-blend-mode: luminosity;
-  width: 800px;
-  padding:0px;
-}
-.image-me{
-  width:110px;
-  height:25%;
-  background-image: url(../img/me.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-}
-.pull-right{
-  float: right;
-  margin-top: 0;
-  }
+
+
+
 #container{
   align-content: space-around;
   padding: 20px;

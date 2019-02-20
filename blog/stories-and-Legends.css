@@ -1,0 +1,70 @@
+body {
+    background: url(../img/white.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    list-style-type: none;
+    font-style: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+.Main-content {
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.iframe {
+    margin-left: 100px;
+    margin-right: 100px;
+    float: center;
+}
+
+.header {
+    background-color: #66ccFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-style: center;
+}
+
+#container {
+    background-color: white;
+    Margin-left: auto;
+    margin-right: auto;
+    align-content: space-around;
+}
+
+.button,
+li {
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    list-style-type: none;
+    text-align: left;
+}
+
+.Main {
+    width: 800px;
+    float: right;
+    padding: 10px;
+    background-color: white;
+}
+
+.footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: left;
+    bottom: 0;
+
+}
+
+     
+    
+

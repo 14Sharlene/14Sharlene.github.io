@@ -9,7 +9,7 @@ body{
   font-style: center;
 }
 
-.Main-content{
+.Main-container{
 background-color: white;
 width:1000px;
 margin-left: auto;
@@ -21,7 +21,7 @@ padding:20px;
   margin-right: 100px;
   float: center;
 }
-.header{
+#header{
   background-color: #66ccFF;
   color:white;
   text-align:center;
