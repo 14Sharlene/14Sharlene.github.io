@@ -30,7 +30,9 @@ body {
     font-weight: bold;
     font-style: center;
 }
-
+.space{
+    padding:20px;
+}
 #container {
     background-color: white;
     Margin-left: auto;

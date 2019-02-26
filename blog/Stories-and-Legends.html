@@ -8,17 +8,33 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link rel="stylesheet" href="styles/debug.css">
    <Link href="../Styles/stories-and-Legends.css" rel="stylesheet" Type="text/css"/>
+   
    <title>Stories and Legends</title>
 
 <style>
+.is-paddingless-horizontal {
+padding-left: 0;
+padding-right: 0;
+}
+
+.grid {
+display: grid;
+grid-template-columns:
+[xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+}
+
+.grid * {
+grid-column: md;
+}
   html{
     height:250%;
   }
 
-  body {
-background: url(../img/white.jpg);
+  html {
+background:url(../img/white.jpg);
 background-size: cover;
-background-position: center
+background-position: center;
+background-repeat: no-repeat;
 
   }
   </Style>
@@ -26,30 +42,35 @@ background-position: center
   <body>
       <div id="Main-container">
       <div id="header">
-          <h1 class="title is 1">The Story of Te Houtaewa</h1>
+          <h1 class="title is-1">The Story of Te Houtaewa</h1>
       </div>
+        <div class="columns">
+            <h3 class="subtitle is-2">10 November 2010</h3>
+            <div class="space">
 
-   <h2 class="subtitle is 2">E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</h2>
+            </div>
+                <div class="column">
+                  <h2 class="subtitle is-3">E kore e mau i a koe, he wae kai pakiaka.</h2>
+                     <h2 class="subtitle is-3">A foot accustomed to running over roots makes the speediest runner.</h2>
+                      <p>Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies.<em>
+                      One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go<em>
+                      to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his <em>
+                      mother to prepare the hangi.</p>
 
+                    <p>
+                        Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to<em>
+                      annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, <em>
+                      The ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe <em>
+                      (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching<em>
+                      Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes)<em>
+                      situated at the foot of the hill Whangatauatia.</p>
 
-
-   <h3 class="subtitle is 3">10 November 2010</h3>
-
-   <p>Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies.<em>
-    One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go<em>
-    to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his <em>
-    mother to prepare the hangi.</p>
-
-   <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to<em>
-     annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, <em>
-     The ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe <em>
-     (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching<em>
-     Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes)<em>
-     situated at the foot of the hill Whangatauatia.</p>
-
-   <p>While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai<em>
-     (food). He was immediately recognised.</p>
+                    <p>While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai<em>
+                      (food). He was immediately recognised.</p>
+                </div>
+              </div>
+        </div>
+  
    </div>
 
    <!-- . -->
