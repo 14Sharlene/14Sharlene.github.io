@@ -9,10 +9,10 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/cards.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script type="text/javaScript" src="../js/sprint3-technical.js"></script>
-<link href="../styles/sprint3-techinical.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javaScript" src="../js/sprint3-technical.js"></script>
+    <link href="../styles/sprint3-techinical.css" rel="stylesheet" type="text/css">
 
 <!-- add a java script link to an HTML sheet. -->
 <!-- <script src = ".js file"> </script> -->
@@ -81,25 +81,25 @@
         </div>
     </nav>
     <!-- END NAV -->
-<div class="container">
-    <div id="flow">
-        <span class="flow-1"></span>
-        <span class="flow-2"></span>
-        <span class="flow-3"></span>
-    </div>
-    <div class="section">
-        <div class="box">
-            <div class="field has-addons">
-                <div class="control is-expanded">
-                    <input class="input has-text-centered" type="search" placeholder="» » » » » » find me « « « « « «">
+            <div class="container">
+                <div id="flow">
+                    <span class="flow-1"></span>
+                    <span class="flow-2"></span>
+                    <span class="flow-3"></span>
                 </div>
-                <div class="control">
-                    <a class="button is-info">Search</a>
+                <div class="section">
+                    <div class="box">
+                        <div class="field has-addons">
+                            <div class="control is-expanded">
+                                <input class="input has-text-centered" type="search" placeholder="» » » » » » find me « « « « « «">
+                            </div>
+                            <div class="control">
+                                <a class="button is-info">Search</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div> 
+            </div> 
             <!-- Developers -->
             <div class="row columns">
                 <div class="column is-one-third">
@@ -240,59 +240,80 @@
     String strArray[] = new String[10]; \\ the array
     int i; // loop index
 
-    for (i = 0; i < strArray.length; i++) strArray[i]="" ; </div> <p>In this example, the variable I keeps track of the
-        number of times the loop has occurred; it also makes a convenient index for the array itself. Here, we start
-        the for loop with an index of I. The test for when the for loop will end is whether the current index is less
-        than the length of the array (once the index is bigger than the array, you should stop), and the increment is
-        simply to add 1 to the index each time. Then, for every loop you can put a null string ("") into the array at
-        the given slot.</p>
+        for (i = 0; i < strArray.length; i++) strArray[i]="" ; </div> 
+        <p>
+            In this example, the variable I keeps track of the
+            number of times the loop has occurred; it also makes a convenient index for the array itself. Here, we start
+            the for loop with an index of I. The test for when the for loop will end is whether the current index is less
+            than the length of the array (once the index is bigger than the array, you should stop), and the increment is
+            simply to add 1 to the index each time. Then, for every loop you can put a null string ("") into the array at
+            the given slot.
+       </p>
 
-        <p>Any of the parts of the for loop can be empty statements; that is, you can simply include a semicolon with
-            no expression or statement, and that part of the for loop will be ignored.</p>
+        <p>
+            Any of the parts of the for loop can be empty statements; that is, you can simply include a semicolon with
+            no expression or statement, and that part of the for loop will be ignored.
+        </p>
 
-        <p>Note that if you do use a null statement in your for loop, you may have to initialize increment any loop
-            variables or loop indices yourself elsewhere in the program. </p>
+        <p>
+            Note that if you do use a null statement in your for loop, you may have to initialize increment any loop
+            variables or loop indices yourself elsewhere in the program. 
+        </p>
 
-        <p>You can also have an empty statement for the body of your for loop, if everything you want to do is in the
+        <p
+           >You can also have an empty statement for the body of your for loop, if everything you want to do is in the
             first line of that loop. For example, here's one that finds the first prime number higher than 4000 (it
-            calls a method called notPrime(), which will theoretically have way of figuring that out):</p>
-        <div class="box">
+            calls a method called notPrime(), which will theoretically have way of figuring that out):
+        </p>
+                <div class="box">
 
-           <mark> for (i = 4001; notPrime(i); i += 2)</mark>
-            ;
-            <p><strong>Note that a common mistake in C that also occurs in Java is to accidentally put a semicolon
-                    after the first line of the for loop:</strong></p>
+                <mark> for (i = 4001; notPrime(i); i += 2)</mark>
+                    ;
+         <p>    <strong>Note that a common mistake in C that also occurs in Java is to accidentally put a semicolon
+                            after the first line of the for loop:</strong>
+        </p>
 
-            for (i = 0; i < 10; i++); System.out.println("Loop!"); </div> <p>Because the first semicolon ends the loop
+                    for (i = 0; i < 10; i++); System.out.println("Loop!"); </div> 
+        <p>
+                Because the first semicolon ends the loop
                 with an empty statement, the loop doesn't actually do anything. The println() function will be printed
                 only once because it's actually outside the for loop entirely. Be careful not to make this mistake in
-                your own Java programs.</p>
+                your own Java programs.
+        </p>
 
-                <p>To finish up for loops, let's rewrite that example with the names from the array section. The
-                    original example is long and repetitive and only works with an array four elements long. This
-                    version, shown in Listing 5.4, is shorter and more flexible (but it returns the same output).</p>
+         <p>
+                To finish up for loops, let's rewrite that example with the names from the array section. The
+                original example is long and repetitive and only works with an array four elements long. This
+                version, shown in Listing 5.4, is shorter and more flexible (but it returns the same output).    
+        </p>
 
                 <h3 class="titile is-2 "><mark>Functions and Why They Are Useful</mark></h3>
 
-                <p><strong>What is a Function?</strong>
+         <p>
+                    <strong>What is a Function?</strong>
 
                     A function is a subprogram designed to perform a particular task. Generally speaking, a function is
                     a "subprogram" that can be called by code external (or internal in the case of recursion) to the
                     function. Like the program itself, a function is composed of a sequence of statements called the
-                    function body. Values can be passed to a function, and the function will return a value.</p>
+                    function body. Values can be passed to a function, and the function will return a value.
+         </p>
 
-                <p>Functions are executed when they are called. This is known as invoking a function.
+         <p>         
+                    Functions are executed when they are called. This is known as invoking a function.
                     Values can be passed into functions and used within the function.
                     Functions always return a value. In JavaScript, if no return value is specified, the function will
                     return undefined.
                     The most fundamental of the conditional statements is the if statement. An if statement will
                     evaluate whether a statement is true or false, and only run if the statement returns true. The code
-                    block will be ignored in the case of a false result, and the program will skip to the next section.</p>
+                    block will be ignored in the case of a false result, and the program will skip to the next section.
+         </p>
 
-                <p>An if statement is written with the if keyword, followed by a condition in parentheses, with the
-                    code to be executed in between curly brackets. In short, it can be written as if () {}.</p>
+         <p>
+                    An if statement is written with the if keyword, followed by a condition in parentheses, with the
+                    code to be executed in between curly brackets. In short, it can be written as if () {}.
+        </p>
 
-                <strong>Here is a longer examination of the basic if statement.</strong>
+                      <strong>Here is a longer examination of the basic if statement.</strong>
                 <div class="box">
 
                     if (condition) {
@@ -300,12 +321,15 @@
                     }
 
                 </div>
-                <p>The contents of an if statement are indented, and the curly brackets containing the block of code to
-                    run do not end in a semicolon, just like a function block.</p>
+        <p>
+                    The contents of an if statement are indented, and the curly brackets containing the block of code to
+                    run do not end in a semicolon, just like a function block.
+        </p>
 
-                <h4>Objects</h4>
+                  <h4>Objects</h4>
 
-                <p><mark>Functions are objects</mark>.Functions are function objects. In JavaScript, anything that is not a
+         <p>        
+                    <mark>Functions are objects</mark>.Functions are function objects. In JavaScript, anything that is not a
                     primitive type ( undefined, null,boolean, number, or string) is an object. Objects in JavaScript
                     are extremely versatile. Because of this, we can even pass a function as a parameter into another
                     function.
@@ -314,7 +338,8 @@
                     higher-order function. You’ve probably already used a bunch of higher order functions and don’t
                     even know it: Array.prototype.mapand Array.prototype.filter are higher order functions (Just to
                     name a couple). You can check out some of my previous articles to learn more about objects and
-                    higher order functions in JavaScript…</p>
+                    higher order functions in JavaScript…
+         </p>
 
                 <h4 class="title is-2">The DOM and DevTools</h4>
 
@@ -322,16 +347,21 @@
                 <iframe width="100%" height="450" src="https://www.youtube.com/embed/-0ZcldkGlt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen class="space"></iframe>
 
-                <p>DevTools is a set of web developers tools built directly into the Google Chrome browser. Dev tools
+            <p>
                     helps you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build
-                    better website, faster.</p>
+                    better website, faster.
+            </p>
 
-                <p>The document Object Model, normally addrviated to DOM, is the way through which javaScript interacts
+            <p>      
+                    The document Object Model, normally addrviated to DOM, is the way through which javaScript interacts
                     with content within a web site. One of the ways in which we access the DOM is using Developer Tools
-                    (DevTools). DevTools also assists us with testing annd debugging websites and applications.</p>
+                    (DevTools). DevTools also assists us with testing annd debugging websites and applications.
+            </p>
 
-                <p>HTML and CSS are two of the fundamental languages found almost everywhere on the web. The Document
-                    Object Model provides the means to interact with objects in an HTML document.</p>
+            <p>     
+                HTML and CSS are two of the fundamental languages found almost everywhere on the web. The Document
+                Object Model provides the means to interact with objects in an HTML document.
+            </p>
 
   </div>
  </div> 
@@ -358,7 +388,7 @@
                         </div>
                     </section>
                                     
-                </p>
+                
             </div>
         </div>
     
@@ -367,7 +397,7 @@
  Html{
       height: 100%;
             }
-            </Style>                           
+  </Style>                           
 <footer>
     <button>
     <a  href="../index.html"class="button is-success is-primary is fullwidth">Home</a>
