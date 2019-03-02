@@ -1,0 +1,131 @@
+body{
+  font-family: 'Patua One', cursive;
+  background-color:#EEE;
+  background-image: url(../img/ic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  list-style-type: none;
+  font-style: center;
+}
+@media screen and (Max-width:999px) {
+      #container{
+        width: 100%;
+      }
+      #header{
+        width:100%;
+      }
+      #navbar{
+        width:30%;
+      }
+      #main{
+        width:70%;
+      }
+      #footer{
+        width:100%;
+      }
+      img{
+        width: 100%;
+      }
+}
+
+@media screen and (Max-width:640px) {
+  #container{
+    width: 100%;
+  }
+  #header{
+    width:100%;
+  }
+  #navbar{
+    width: 100%;
+  }
+  #main{
+    width:100%;
+  }
+  #footer{
+    width:100%;
+  }
+  img{
+    width: 100%;
+  }
+}
+@media screen and (Max-width:320px) {
+  #container{
+    width: 100%;
+  }
+
+  }
+.p #container{
+  background-color:white;
+  Margin-left:auto;
+  margin-right:auto;
+}
+#container{
+background-color: white;
+width:1000px;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
+
+}
+#header{
+  color:white;
+  text-align:center;
+  padding:20px;
+  }
+
+
+
+#content{
+  padding:40px;
+  margin:0px;
+}
+
+.box{
+  background-blend-mode: luminosity;
+  width: 200px;
+  padding:10px;
+
+}
+
+
+#nav{
+  width:200px;
+  float:left;
+  padding:10px;
+  text-align:left;
+  background-color: white;
+
+  }
+
+.ul{
+    list-style-type: none;
+    background-color:white;
+    color:white;
+    float:left;
+    text-align: left;
+}
+.button,li{
+  padding:10px;
+  font-weight:bold;
+  list-style-type: none;
+  text-align: left;
+  border: 0;
+
+}
+#nav.selected{
+  font-weight:bold;
+}
+#Main{
+  width:800px;
+  float:right;
+padding:20px;
+background-color:white;
+}
+#footer{
+  clear:both;
+  padding:10px;
+  background-color: #999999;
+  color: white;
+  text-align:left;
+}
