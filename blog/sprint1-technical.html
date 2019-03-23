@@ -16,89 +16,77 @@
   </head>
 <body>
   <div class ="header">
-                <h1 class="title is-1">What Dose It Mean To Display Inline Vs Inline Blocks</h1>
-                </div>
-
-  <iframe class="iframe" width="100%" height="500" src="https://www.youtube.com/embed/kYQomYe9ejU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe >
-  
-    <div id="Main-container">
-         <div class="div container">
-                
-                    <div class="block"></div>
-                      <article class="article message is-primary">
-                          <div class="message-header">
+    <h1 class="title is-1">What Dose It Mean To Display Inline Vs Inline Blocks</h1>
+      </div>
+        <iframe class="iframe" width="100%" height="500" src="https://www.youtube.com/embed/kYQomYe9ejU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe >
+          <div id="Main-container">
+            <div class="div container">
+              <div class="block"></div>
+                <article class="article message is-primary">
+                  <div class="message-header">
                     <h2 class="subtitle is-2">Inline</h2>
                     </div>
-                    <div class="message-body">
-                    <p>
+                      <div class="message-body">
+                          <p>
 
-                        Inline Css refers to Css found in an html file. It is found in the head of a document between style tags. Inline Css
-                        simply means putting your Css into your HTML file instead of an external Css file.
-                    </p>  
-                    </div>  
+                              Inline Css refers to Css found in an html file. It is found in the head of a document between style tags. Inline Css
+                              simply means putting your Css into your HTML file instead of an external Css file.
+                          </p>  
+                        </div>  
                   </article>
-                  
-                  
-                  <div class="block"></div>
-                  <article class="article message is-success">
-                    <div class="message-header">
-                    <h2 >Why use it?</h2>
-                    </div>
-                    <div class="message-body">
-                          
-                    <P>
-                          Inlined CSS reduces the amount of files the browser has to download prior to displaying your web page. If you are using
-                          an external CSS file, the browser must first load your HTML file, then download your CSS file.
-                          After you inline your CSS the browser only has to download your HTML file. Downloading one file is faster than
-                          downloading two. When done right it is an important part of an optimized CSS delivery solution.
-                    </P>
-                    </div>
-                    </article>
+                    <div class="block"></div>
+                      <article class="article message is-success">
+                        <div class="message-header">
+                          <h2 >Why use it?</h2>
+                            </div>
+                              <div class="message-body">
+                               <P>
+                                    Inlined CSS reduces the amount of files the browser has to download prior to displaying your web page. If you are using
+                                    an external CSS file, the browser must first load your HTML file, then download your CSS file.
+                                    After you inline your CSS the browser only has to download your HTML file. Downloading one file is faster than
+                                    downloading two. When done right it is an important part of an optimized CSS delivery solution.
+                                </P>
+                                 </div>
+                                   </article>
+                                    <div class="block"></div>
+                                      <article class="article message is-warning">
+                                       <div class="message-header">
+                                        <h2>What does this do?</h2>
+                                          </div>
+                                            <div class="message-body">
+                                            <p>
+                                              Putting your CSS into the head section of your HTML will save the web browser a round trip to the server, since you are
+                                              no longer asking for a separate external file for the browser to load to see your CSS.
+                                            </p>
+                                          </div>   
+                                            </article>
+                                     <div class="block"></div>
+                                      <article class="article message is-danger">
+                                          <div class="message-header">
+                                            <h2>Pros and Cons</h2>
+                                          </div>
+                                          <div class="message-body">
+                                                    <p>
+                                                    While this does save a round trip to the server (good) it also means that your CSS file will no longer be cached (bad).
+                                                    When you use external CSS files the entire file is cached (remembered) by the browser so it doesn't have to take the
+                                                    same steps over and over when a user goes to another page on your website. When you inline your CSS, this does not occur
+                                                    and the CSS is read and acted upon again when a visitor goes to another page of your website. This does not matter if
+                                                    your CSS is small and simple. If your CSS is large and complex, as they often tend to be, then you may want to consider
+                                                    that the caching of your CSS is a better choice.
+                                            </p>
+                                            <p>
+                                                    Many people inline the CSS of their homepage or landing pages that have to load super quick to be effective and then use
+                                                    external CSS for the rest of their site.  Google recommends 1 inlining of blocking css...</p>
 
-              <div class="block"></div>
-              <article class="article message is-warning">
-                <div class="message-header">
-                <h2>What does this do?</h2>
-                </div>
-                <div class="message-body">
-                    
-
-                      <p>
-                        Putting your CSS into the head section of your HTML will save the web browser a round trip to the server, since you are
-                        no longer asking for a separate external file for the browser to load to see your CSS.
-                      </p>
-                    </div>   
-                      </article>
-                    
-                  
-              <div class="block"></div>
-                <article class="article message is-danger">
-                  <div class="message-header">
-                    <h2>Pros and Cons</h2>
-                  </div>
-                  <div class="message-body">
-                            <p>
-                            While this does save a round trip to the server (good) it also means that your CSS file will no longer be cached (bad).
-                            When you use external CSS files the entire file is cached (remembered) by the browser so it doesn't have to take the
-                            same steps over and over when a user goes to another page on your website. When you inline your CSS, this does not occur
-                            and the CSS is read and acted upon again when a visitor goes to another page of your website. This does not matter if
-                            your CSS is small and simple. If your CSS is large and complex, as they often tend to be, then you may want to consider
-                            that the caching of your CSS is a better choice.
-                    </p>
-                    <p>
-                            Many people inline the CSS of their homepage or landing pages that have to load super quick to be effective and then use
-                            external CSS for the rest of their site.  Google recommends 1 inlining of blocking css...</p>
-
-                    <p>"
-                            For best performance, you may want to consider inlining the critical CSS directly into the HTML document. This
-                            eliminates additional roundtrips in the critical path and if done correctly can be used to deliver a “one roundtrip”
-                            critical path length where only the HTML is a blocking resource".
-                    </p>  <strong>the CSS delivery tool which will explain how CSS is being used by a certain page.</strong> 
-                    </div>
-                    </article>
-                  
-                  <div class="block"></div>
-                    <article class="article message is-primary">
+                                            <p>"
+                                                    For best performance, you may want to consider inlining the critical CSS directly into the HTML document. This
+                                                    eliminates additional roundtrips in the critical path and if done correctly can be used to deliver a “one roundtrip”
+                                                    critical path length where only the HTML is a blocking resource".
+                                            </p>  <strong>the CSS delivery tool which will explain how CSS is             being used by a certain page.</strong> 
+                                            </div>
+                                     </article>
+                                   <div class="block"></div>
+                                <article class="article message is-primary">
                       <div class="message-header">
                         <H1 class="title is-1">Inline-Blocks</H1>
                       </div>
@@ -113,35 +101,34 @@
                           a line- break after the element, so the element can sit next to other elements.
                     </p>
                       </div>
-                    </article>
-             </div>
-        </div>
-<section class="section is-paddingless-horizontal">
-  <div class="container grid">
-    <article class="media">
-      <figure class="media-left">
-        <figure class="image is-64x64">
-          <img src="../img/me.jpg">
-        </figure>
-      </figure>
-      <div class="media-content">
-        <div class="content">
-          <p>
-            <strong>Sharlene Ryan</strong> <a>sa.ryan@live.com</a><br>
-            <span class="has-text-grey">Self-taught, inspired to learn<br>
-              <time datetime="2019-02-21">19 feb</time> · 20 min read</span>
-          </p>
-        </div>
-      </div>
-    </article>
+                              </article>
+                          </div>
+                        </div>
+              <section class="section is-paddingless-horizontal">
+                <div class="container grid">
+                  <article class="media">
+                    <figure class="media-left">
+                      <figure class="image is-64x64">
+                        <img src="../img/me.jpg">
+                      </figure>
+                    </figure>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Sharlene Ryan</strong> <a>sa.ryan@live.com</a><br>
+                          <span class="has-text-grey">Self-taught, inspired to learn<br>
+                            <time datetime="2019-02-21">19 feb</time> · 20 min read</span>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                 </section>
+
   </div>
-</section>
-  <footer>
+<footer class="footer">
   <button><li><a href="../index.html" class="button is-info is-Large">Home</a></button>
-<footer class="footer">Copyright (c) 2019 Sharlene Ryan</footer>
-  </div>
-
-
-   
-  </body>
+    Copyright (c) 2019 Sharlene Ryan
+</footer>
+</body>
 </html>
