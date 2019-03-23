@@ -9,7 +9,7 @@ body{
  
 } 
 #main{
-background-color: #58c2f7;
+background-color: #eaf0ef;
 width:1000px;
 margin-left: auto;
 margin-right: auto;
@@ -17,12 +17,12 @@ padding:10px;
 }
 
 #container{
-  background-color: #58c2f7;
+  background-color: #76c2f5;
   Margin-left:auto;
   margin-right:auto;
 }
 #header{
-  background-color: #66ccFF;
+  background-color: rgb(74, 182, 236);
   color:black;
   text-align:center;
   padding:10px;
@@ -35,7 +35,7 @@ padding:10px;
 .h2{
   align-items:center; 
 }
-.Main-content{
+.main-content{
    width:800px;
   float:right;
 padding:10px;
