@@ -1,6 +1,7 @@
 body{
   font-family: 'Slabo 27px', serif;
   background-color:#EEE;
+  background-image: url(../img/white.2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -8,8 +9,8 @@ body{
   font-style: center;
  
 } 
+
 #main{
-background-color: #eaf0ef;
 width:1000px;
 margin-left: auto;
 margin-right: auto;
@@ -17,13 +18,11 @@ padding:10px;
 }
 
 #container{
-  background-color: #76c2f5;
-  Margin-left:auto;
+   Margin-left:auto;
   margin-right:auto;
 }
 #header{
-  background-color: rgb(74, 182, 236);
-  color:black;
+   color:black;
   text-align:center;
   padding:10px;
   font-weight:bold;
@@ -32,12 +31,17 @@ padding:10px;
 .title-is-1{
   font-size: 10px;
 }
+.h4{
+  font-style: bold;
+  align-items: center;
+}
 .h2{
   align-items:center; 
 }
-.main-content{
+#main-content{
+ bottom: 100%;
    width:800px;
-  float:right;
+  
 padding:10px;
 background-color:white;
 }
@@ -47,21 +51,11 @@ background-color:white;
     grid-gap:1em;
     grid-auto-rows: minmax(100px,auto)
 }
-
-.wrapper > div{
-    background-color:white;
-    padding: 1em;
-}
-
-.wrapper > div:noth-child odd{
-    background-color:white;
-
-}
-
 #footer{
   clear:both;
   padding:10px;
   background-color: #999999;
   color: white;
   text-align:left;
+  position: bottom;
 }
