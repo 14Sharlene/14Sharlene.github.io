@@ -1,0 +1,76 @@
+body{
+  font-family: 'Slabo 27px', serif;
+  background-color:#EEE;
+  background-image: url(../img/white.2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  list-style-type: none;
+  font-style: center;
+ 
+} 
+#Main{
+background-color: #58c2f7;
+width:1000px;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
+border-radius: 5px;
+border: 2px solid black;
+}
+
+#container{
+  background-color: #58c2f7;
+  Margin-left:auto;
+  margin-right:auto;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#header{
+  background-color: #66ccFF;
+  color:black;
+  text-align:center;
+  padding:10px;
+  font-weight:bold;
+  font-style: center;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.title-is-1{
+  font-size: 10px;
+}
+.h2{
+  align-items:center; 
+}
+.Main-content{
+   width:800px;
+  float:right;
+padding:10px;
+background-color:white;
+}
+.wrapper{
+    display:gird;
+    grid-template-columns:repeat(3 1fr);
+    grid-gap:1em;
+    grid-auto-rows: minmax(100px,auto)
+}
+
+.wrapper > div{
+    background-color:white;
+    padding: 1em;
+}
+
+.wrapper > div:noth-child odd{
+    background-color:white;
+
+}
+
+#footer{
+  clear:both;
+  padding:10px;
+  background-color: #999999;
+  color: white;
+  text-align:left;
+  border-radius: 5px;
+  border: 2px solid black;
+}
