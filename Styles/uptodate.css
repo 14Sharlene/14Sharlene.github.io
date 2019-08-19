@@ -1,0 +1,9 @@
+body{
+    background: rgb(191, 13, 226);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Abril Fatface',
+    cursive;
+    font-weight: lighter;
+}
